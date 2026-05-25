@@ -40,7 +40,7 @@ To maximize hardware resource savings on the target FPGA fabric, the AES engine 
 - `baudrate_gen.sv`: Implements the clock division logic for UART transaction enable signals.
 - `uart_rx.sv` / `uart_tx.sv`: Asynchronous serial hardware receiver and transmitter modules.
 
-### Hardware Verification (Hercules)
+## 5. Hardware Verification (Hercules)
 The design has been fully verified on physical hardware by interfacing the DE2 FPGA board with Hercules Setup Utility via RS-232 serial interface. It achieves a high-performance throughput operating at a 50 MHz clock framework
 
 ---
